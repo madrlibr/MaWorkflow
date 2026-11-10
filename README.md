@@ -9,7 +9,7 @@
 ```text
 MaWorkflow/
 ├── workflow.md               # Universal 5-phase lifecycle & critical agent persona
-├── Skill/
+├── Skills/
 │   └── client-artisan-workflow.md  # Tech-stack specific standard (Laravel, Tailwind, Alpine.js)
 ├── LICENSE
 └── README.md
@@ -22,7 +22,7 @@ MaWorkflow/
 
 1. **No Premature Coding:** Agents are strictly forbidden from writing code until architecture, database schemas, and documentation are fully agreed upon.
 2. **The Proactive Critic:** The AI agent acts as a technical architect, challenging weak requirements and proposing robust alternatives.
-3. **Modular Tech Stacks:** The root workflow remains constant, while tech-stack rules (`Skill/`) can be swapped or added (Laravel, Node.js, Go, Python).
+3. **Modular Tech Stacks:** The root workflow remains constant, while tech-stack rules (`Skills/`) can be swapped or added (Laravel, Node.js, Go, Python).
 4. **Scope Creep Management:** Includes a built-in protocol to safely handle mid-project client requirement changes.
 
 ---
@@ -34,4 +34,4 @@ MaWorkflow/
 > *"Let's start Phase 1: PRD creation for our new client project."*
 
 
-3. Fill out the PRD form, select your target tech stack skill from the `Skill/` folder, and let the agent guide you sequentially through System Design, UI/UX, Task Breakdown, and Implementation.
+3. Fill out the PRD form, select your target tech stack skill from the `Skills/` folder, and let the agent guide you sequentially through System Design, UI/UX, Task Breakdown, and Implementation.

@@ -5,7 +5,7 @@ description: Enforces a strict, multi-phase software engineering lifecycle for r
 
 # Phased Development & Architectural Workflow
 
-This skill enforces a strict gated workflow for building production-ready client applications. **AI agents must NEVER jump straight into coding** unless all preceding phases are explicitly completed and approved by the user.
+This skills enforces a strict gated workflow for building production-ready client applications. **AI agents must NEVER jump straight into coding** unless all preceding phases are explicitly completed and approved by the user.
 
 ---
 
@@ -24,7 +24,7 @@ Guide the user sequentially through these 5 phases, waiting for confirmation bef
 
 ### Phase 1: Product Requirements Document (PRD) & Scoping
 - **Objective:** Define *what* we are building, business rules, user roles, core features, and edge cases.
-- **Action:** Prompt the user to fill out the PRD Template below, including selecting the appropriate Tech Stack Skill from the `Skill/` directory.
+- **Action:** Prompt the user to fill out the PRD Template below, including selecting the appropriate Tech Stack Skills from the `Skills/` directory.
 - **Artifact Output:** Create `docs/PRD.md`.
 
 ### Phase 2: System Design & ERD Architecture
@@ -46,7 +46,7 @@ Guide the user sequentially through these 5 phases, waiting for confirmation bef
 - **Artifact Output:** Create `TODO.md` in the root directory.
 
 ### Phase 5: Step-by-Step Implementation (Coding)
-- **Objective:** Build the application following the approved documents and the selected Tech Stack Skill (`Skill/...`).
+- **Objective:** Build the application following the approved documents and the selected Tech Stack Skills (`Skills/...`).
 - **Action:** Execute tasks item by item from `TODO.md`, applying clean code standards, strict validation, security, and token efficiency.
 
 ---
@@ -75,8 +75,8 @@ When starting Phase 1, present this exact template for the user to fill out:
 - **Team Roles / Members (if Team):** (e.g., Member 1: Backend, Member 2: Frontend)
 - **Core Purpose / Business Value:**
 
-## 2. Active Tech Stack Skill Selection
-- **Selected Coding Standard / Skill File:** (e.g., `Skill/client-artisan-workflow.md` for Laravel, or future JS/Python skills)
+## 2. Active Tech Stack Skills Selection
+- **Selected Coding Standard / Skills File:** (e.g., `Skills/client-artisan-workflow.md` for Laravel, or future JS/Python skills)
 
 ## 3. User Roles & Permissions
 - [ ] Role 1 (e.g., Admin): 
