@@ -1,6 +1,6 @@
 # MaWorkflow: Gated AI Agent Workflow & Modular Engineering Standards
 
-**MaWorkflow** is a professional framework designed for AI coding agents (such as OpenCode) to transition from generic code generation to **structured software engineering**. It enforces a strict multi-phase lifecycle, preventing premature coding and ensuring production-ready client applications.
+**MaWorkflow** is a Markdown-based skill framework for AI coding agents (such as OpenCode) that turns generic code generation into **structured software engineering**. It enforces a gated five-phase lifecycle — PRD → System Design & ERD → UI/UX → Task Breakdown → Implementation — with a proactive critical-architect persona, scope-creep control, and swappable standards in `Skills/`.
 
 ---
 
@@ -8,9 +8,10 @@
 
 ```text
 MaWorkflow/
-├── workflow.md               # Universal 5-phase lifecycle & critical agent persona
+├── workflow.md                       # Universal 5-phase lifecycle & critical agent persona
 ├── Skills/
-│   └── client-artisan-workflow.md  # Tech-stack specific standard (Laravel, Tailwind, Alpine.js)
+│   ├── client-artisan-workflow.md    # Tech-stack standard (Laravel, Tailwind, Alpine.js)
+│   └── ui-ux-glossary.md             # UI/UX terminology clarifier for vague design requests
 ├── LICENSE
 └── README.md
 
@@ -22,7 +23,7 @@ MaWorkflow/
 
 1. **No Premature Coding:** Agents are strictly forbidden from writing code until architecture, database schemas, and documentation are fully agreed upon.
 2. **The Proactive Critic:** The AI agent acts as a technical architect, challenging weak requirements and proposing robust alternatives.
-3. **Modular Tech Stacks:** The root workflow remains constant, while tech-stack rules (`Skills/`) can be swapped or added (Laravel, Node.js, Go, Python).
+3. **Modular Skills:** The root workflow remains constant, while standards and helper skills in `Skills/` can be swapped or added (Laravel, Node.js, Go, Python, UI/UX terminology).
 4. **Scope Creep Management:** Includes a built-in protocol to safely handle mid-project client requirement changes.
 
 ---
